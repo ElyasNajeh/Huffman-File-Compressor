@@ -1,0 +1,79 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial";
+    -fx-background-color: linear-gradient(to bottom, #f7f9fc, #eef2f7);
+}
+
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0d2a4d;
+    -fx-padding: 2 0 5 0;
+}
+
+.tab-pane {
+    -fx-background-color: transparent;
+    -fx-tab-min-width: 125px;
+}
+
+.tab-pane .tab-header-area {
+    -fx-padding: 0 0 0 8;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #123a63;
+    -fx-padding: 9 18;
+    -fx-background-radius: 6 6 0 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #1f5fa3;
+}
+
+.tab-pane .tab-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.tab-pane .tab-content-area {
+    -fx-background-color: white;
+    -fx-border-color: #d6dee8;
+    -fx-border-width: 0 1 1 1;
+    -fx-padding: 10;
+}
+
+.text-area {
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 13px;
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-background-color: #0d2a4d;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 25;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1f5fa3;
+}
+
+.button:pressed {
+    -fx-background-color: #09203b;
+}
+
+.button:focused {
+    -fx-border-color: #73a7da;
+    -fx-border-radius: 6;
+    -fx-border-width: 2;
+}
